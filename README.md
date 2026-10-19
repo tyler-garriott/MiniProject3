@@ -55,8 +55,8 @@ Fill in all columns with information gained from your discussions.
 
 1. Create YOURnetid_agreement_stats.csv and summarize the level of agreement across all 5 validated fields with the following columns:
 
-|Field|PercentAgree_Pre|PercentAgree_Post|CohenKappa_Pre|CohenKappa_Post|NumDisagreements|NumResolved|MeanResolutionTime_min|Notes|
-|-|-|-|-|-|-|-|-|-|
+|Field|PercentAgree_Pre|PercentAgree_Post|CohenKappa_Pre|CohenKappa_Post|NumDisagreements|NumResolved|Notes|
+|-|-|-|-|-|-|-|-|
 
 2. Each row in this CSV corresponds to one validated field. See How to compute column values below.
 2. Create YOURnetid_validation_reflection.md and write a few paragraphs of validation reflection, connecting adjudicated labels to patterns seen across projects; which signals precede long gaps, what triggers recovery, and when gaps don’t mean project death. Highlight recurring interpretation pitfalls and how they were resolved.
@@ -83,8 +83,6 @@ Round all percentages to one decimal place.
 
 Cohen’s κ (Kappa): Report Cohen’s κ only for categorical fields (ActivityPattern, CurrentStatus, HasRecovered) to measure inter-rater reliability. Example: if κ = 0.85 post-discussion, it indicates strong agreement. For all non-categorical fields (BeforeThemes, AfterThemes, HypothesizedReason, RecentThemes, Notes), enter NA for both CohenKappa_Pre and CohenKappa_Post.
 
-MeanResolutionTime_min: Average time (in minutes) to resolve disagreements for that field. Example: (10 + 12 + 8 + 9 + 11) / 5 = 10.0 minutes. If time was not tracked, enter NA.
-
 Notes Column:  Summarize any relevant patterns or challenges (e.g., “Terminology mismatches,” “Improved clarity after examples”).
 
 # Partners for MiniProject3 by NetID
@@ -109,7 +107,7 @@ You can map names/githubIDs for each NetID in [netids.md](./netID.md).
 |sydlwils|jzr266|
 |lsantucc|pstorch1|
 |jbronyah|kyandall|
-|lwang111|ccough13|
+|lwang111|ccoughl3|
 |wch356|jvijayak|
 |ltipto11|hneel|
 |wknepp|aalkafou|
