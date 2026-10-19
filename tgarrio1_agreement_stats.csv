@@ -1,0 +1,6 @@
+Field;PercentAgree_Pre;PercentAgree_Post;CohenKappa_Pre;CohenKappa_Post;NumDisagreements;NumResolved;MeanResolutionTime_min;Notes
+HasRecovered;90.0;100.0;0.75;1.00;2;2;NA;20 comparisons across both logs. N/A is a separate category for kappa, and yes/no qualifiers are removed. Corrected-gap recovery and maintenance recovery resolved.
+WhyRecovered;100.0;100.0;NA;NA;0;0;NA;20 comparisons across both logs. Reasons compared by meaning rather than exact wording. Kappa is NA for free text.
+ActivityPattern;85.0;100.0;0.78;1.00;3;3;NA;20 comparisons across both logs. Resolved stopped versus historical trend using upstream evidence at the cutoff and each project's earlier gaps.
+Currentstatus;100.0;100.0;1.00;1.00;0;0;NA;20 comparisons across both logs. Applied the six-month rule at 2025-09-30. No disagreements.
+RecentThemes;90.0;100.0;NA;NA;2;2;NA;20 comparisons across both logs. Classified bot changes by authorship and usage examples as documentation. Kappa is NA as required by the README.
